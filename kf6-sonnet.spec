@@ -27,6 +27,8 @@ BuildRequires: cmake(Qt6ToolsTools)
 BuildRequires: cmake(Qt6)
 BuildRequires: cmake(Qt6QuickTest)
 BuildRequires: cmake(Qt6Quick)
+BuildRequires: pkgconfig(hunspell)
+BuildRequires: pkgconfig(libvoikko)
 Requires: %{libname} = %{EVRD}
 
 %description
