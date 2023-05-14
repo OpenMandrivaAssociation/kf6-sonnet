@@ -31,6 +31,7 @@ BuildRequires: pkgconfig(hunspell)
 BuildRequires: pkgconfig(libvoikko)
 BuildRequires: aspell-devel
 BuildRequires: hspell-devel
+BuildRequires: pkgconfig(zlib)
 Requires: %{libname} = %{EVRD}
 
 %description
