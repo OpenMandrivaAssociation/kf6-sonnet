@@ -29,7 +29,7 @@ BuildRequires: cmake(Qt6QuickTest)
 BuildRequires: cmake(Qt6Quick)
 BuildRequires: pkgconfig(hunspell)
 BuildRequires: pkgconfig(libvoikko)
-BuildRequires: aspell-devel
+BuildRequires: aspell aspell-devel
 BuildRequires: hspell-devel
 BuildRequires: pkgconfig(zlib)
 Requires: %{libname} = %{EVRD}
@@ -100,7 +100,8 @@ Spelling framework for Qt
 %{_libdir}/libKF6SonnetUi.so*
 %{_qtdir}/qml/org/kde/sonnet
 # FIXME potentially split the backends into separate packages,
-# esp. voikko isn't useful to everyone
+# esp. voikko (Finnish only) and hspell (Hebrew only) aren't useful
+# to everyone
 %dir %{_qtdir}/plugins/kf6/sonnet
 %{_qtdir}/plugins/kf6/sonnet/sonnet_aspell.so
 %{_qtdir}/plugins/kf6/sonnet/sonnet_hspell.so
