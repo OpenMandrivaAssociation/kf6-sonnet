@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Sonnet
 %define devname %mklibname KF6Sonnet -d
-%define git 20230811
+%define git 20230818
 
 Name: kf6-sonnet
 Version: 5.240.0
