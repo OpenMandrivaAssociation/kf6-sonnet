@@ -1,6 +1,6 @@
 %define libname %mklibname KF6Sonnet
 %define devname %mklibname KF6Sonnet -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-sonnet
 Version: 5.240.0
@@ -91,8 +91,6 @@ Spelling framework for Qt
 %{_libdir}/cmake/KF6Sonnet
 %{_qtdir}/doc/KF6SonnetCore.*
 %{_qtdir}/doc/KF6SonnetUi.*
-%{_qtdir}/mkspecs/modules/qt_SonnetCore.pri
-%{_qtdir}/mkspecs/modules/qt_SonnetUi.pri
 
 %files -n %{libname}
 %{_libdir}/libKF6SonnetCore.so*
